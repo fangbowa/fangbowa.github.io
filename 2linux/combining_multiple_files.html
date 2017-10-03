@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+	<title> combining multiple files using Bash </title>
+	<meta name="keywords" content="Bash, Shell" />
+	<meta name="author" content="Fangbo Wang" />
+	<meta name="revised" content=" date 03/26/2017" />
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+	<link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+
+</head>
+<body>
+
+<div id="main">
+<header>
+	<p align="center"> LINUX </p>
+</header>
+
+<header>
+	<h1 align="center">   <font size="6">  <span style="color:blue">Combine multiple files into one using Bash shell script</span>  </font>  </h1>
+</header>
+
+<hr>
+
+<h2>Background</h2>
+<p>It is common to need to output its own result to file for each processor in parallel computing environment. Each file has a specified name along with processor id. This method can avoid a lot of communications between the processors and highly encouraged if possible. For time-denpent problems, we could have to output at every time step. A lot of files with similar name but different time step number could be generated. We can use Matlab to read these files and combine them together but not efficient especialy with tons of files. Today I will show you how to combine these files using simple Bash shell scripts under Linux Environment.</p>
+
+<hr>
+
+<h2>Pre-check</h2>
+<p> First check the type of shell the operating system is using by typing <span style="color:blue">"echo $shell"</span> in the terminal.  </p>
+
+<hr>
+
+<h2>The Problem </h2>
+<p> Suppose I have ton of files in the pattern listed below and want to combine each row into one file: </p> 
+<p align="center"> A1_1.txt, &emsp; A1_2.txt, &emsp; A1_3.txt  &emsp;  &#8658; A1.txt</p>   
+<p align="center"> A2_1.txt, &emsp; A2_2.txt, &emsp; A2_3.txt  &emsp;  &#8658; A2.txt</p> 
+
+<p align="center"> ...... </p> 
+<p align="center"> ...... </p> 
+
+<p align="center"> An_1.txt, &emsp; An_2.txt, &emsp; An_3.txt &emsp;  &#8658; An.txt</p> 
+									
+<hr>
+
+<h2>The Shell Script </h2>
+<p>The shell script to do this job is pasted below.  </p>
+<pre><code>
+#!/bin/bash
+
+header="displacement"
+extension=".txt"
+underscore="_"
+newdir="../combinedresults/"   ## save the combined files to a new folder
+
+for i in {1..5}
+do
+	filename=$header$i$extension   ##generate a new file name to store the files
+	touch $filename               ## create the new file
+		for j in {0..3}
+		do 
+			FILENAME=$header$i$underscore$j$extension   ## generate the existing file names
+			cat $FILENAME  >> $newdir$filename          ## concatenate the existing file to the new file
+		done
+	echo "Finishing $i files"
+done
+
+</code></pre>
+
+
+<A HREF="combining_multiple_files.sh">combining_multiple_files.sh</A> <BR>
+<br><br><br><br><br>
+
+</div>
+</body>
+</html>
