@@ -56,7 +56,9 @@ First of all, we can change the advection coeffcient to see its effect. As can b
 \end{figure}
 
 Similarly, the effect of diffusion coefficient can be shown in Fig. \ref{fig2}. 
-With positive diffusion coefficient, the shape of the function would diffuse to have a larger spreadness. However, negative diffusion coefficient which indicating concentration would render the equation ill-posed and difficult to solve the problem. Furthermore, negative diffusion coefficient is an inverse process which might have multiple possible solutions. Only equation with very small negative diffusion coefficient would be solved. Regarding this specific problem, the smallest possible value of $N_2$ is -0.2. Solution with negative diffusion coefficient would have smaller standard deviation due to concentration effect (standard deviation=0.998). 
+With positive diffusion coefficient, the shape of the function would diffuse to have a larger spreadness. However, negative diffusion coefficient which indicating concentration would render the equation ill-posed and difficult to solve the problem. It can be categorized as a backward heat equation. It's common to see high frequency oscillations in the solution, that's because the negative diffusion process behaves like differention to make the solution coarser than initial condition. However, positive diffusion process behaves like integration to make the solution smoother than initial condition \cite{Threfethen}. Numerous techniques have been proposed to overcome this ill-posed problem, and regularization is one of them, see ref \cite{Fu}. 
+
+Furthermore, negative diffusion coefficient is an inverse process which might have multiple possible solutions. Only equation with very small negative diffusion coefficient would be solved. Regarding this specific problem, the smallest possible value of $N_2$ is -0.2. Solution with negative diffusion coefficient would have smaller standard deviation due to concentration effect (standard deviation=0.998). 
 
 \begin{figure}[H]
 \begin{center}
@@ -163,6 +165,17 @@ Efficient solution algorithms for multiaxial probablistic elasto-plastic constit
 \textit{Int J Numer Anal Mech Geomech}. 
 2017; 0:1-21.
  
+\bibitem{Fu} 
+Chuli Fu, Xiangtuan Xiong and Zhi Qian. 
+Fourier regularization for a backward heat equation.
+\textit{Jounal of Mathematical Analysis and Applications}. 
+2007; 331:471-480.
+
+\bibitem{Threfethen} 
+Lloyd N. Trefethen and Kristine Embree. 
+The PDE Coffee Table Book. Chapter 3. Backward heat equation...ill-posed problems and regularisation.
+\textit{https://people.maths.ox.ac.uk/trefethen/pdectb.html}. 
+2011.
 
 \end{thebibliography}
 

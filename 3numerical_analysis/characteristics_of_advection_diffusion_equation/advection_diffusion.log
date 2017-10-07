@@ -1,20 +1,15 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2016.4.6)  29 SEP 2017 13:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.13)  6 OCT 2017 23:35
 entering extended mode
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **advection_diffusion.tex
 (./advection_diffusion.tex
-LaTeX2e <2005/12/01>
-Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
-erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
- french, greek, monogreek, ancientgreek, croatian, hungarian, interlingua, ibyc
-us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
-tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
-turkish, ukenglish, ukrainian, loaded.
-(/usr/share/texmf/tex/latex/base/article.cls
-Document Class: article 2005/09/16 v1.4f Standard LaTeX document class
-(/usr/share/texmf/tex/latex/base/size12.clo
-File: size12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -28,41 +23,41 @@ File: size12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2000/07/18 v2.13 AMS math features
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texmf/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/share/texmf/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks14
 \ex@=\dimen103
 ))
-(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen104
 )
-(/usr/share/texmf/tex/latex/amsmath/amsopn.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count87
-LaTeX Info: Redefining \frac on input line 211.
+LaTeX Info: Redefining \frac on input line 199.
 \uproot@=\count88
 \leftroot@=\count89
-LaTeX Info: Redefining \overline on input line 307.
+LaTeX Info: Redefining \overline on input line 297.
 \classnum@=\count90
 \DOTSCASE@=\count91
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen105
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \macc@depth=\count92
 \c@MaxMatrixCols=\count93
 \dotsspace@=\muskip10
@@ -83,123 +78,130 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks18
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
 )
-(/usr/share/texmf/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
 )
-(/usr/share/texmf/tex/latex/graphics/graphics.sty
-Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texmf/tex/latex/config/graphics.cfg
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 90.
+Package graphics Info: Driver file: pdftex.def on input line 95.
 
-(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
 \Gread@gobject=\count99
 ))
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-(/usr/share/texmf/tex/latex/tools/bm.sty
-Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2014/10/28 v1.1c Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup4
 \symboldletters=\mathgroup5
 \symboldsymbols=\mathgroup6
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 137.
-LaTeX Info: Redefining \bm on input line 203.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
 )
-(/usr/share/texmf/tex/latex/subfig/subfig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-(/usr/share/texmf/tex/latex/caption/caption.sty
-Package: caption 2007/01/07 v3.0k Customising captions (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-(/usr/share/texmf/tex/latex/caption/caption3.sty
-Package: caption3 2007/01/07 v3.0k caption3 kernel (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen114
-\captionmarginx=\dimen115
+\captionmargin@=\dimen115
 \captionwidth=\dimen116
-\captionindent=\dimen117
-\captionparindent=\dimen118
-\captionhangindent=\dimen119
-))
-\c@KVtest=\count100
+\caption@tempdima=\dimen117
+\caption@indent=\dimen118
+\caption@parindent=\dimen119
+\caption@hangindent=\dimen120
+)
+\c@ContinuedFloat=\count100
+)
+\c@KVtest=\count101
 \sf@farskip=\skip46
-\sf@captopadj=\dimen120
+\sf@captopadj=\dimen121
 \sf@capskip=\skip47
 \sf@nearskip=\skip48
-\c@subfigure=\count101
-\c@subfigure@save=\count102
-\c@lofdepth=\count103
-\c@subtable=\count104
-\c@subtable@save=\count105
-\c@lotdepth=\count106
+\c@subfigure=\count102
+\c@subfigure@save=\count103
+\c@lofdepth=\count104
+\c@subtable=\count105
+\c@subtable@save=\count106
+\c@lotdepth=\count107
 \sf@top=\skip49
 \sf@bottom=\skip50
 )
-(/usr/share/texmf/tex/latex/float/float.sty
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count107
+\c@float@type=\count108
 \float@exts=\toks20
 \float@box=\box28
 \@float@everytoks=\toks21
 \@floatcapt=\box29
 )
-(/usr/share/texmf/tex/latex/listings/listings.sty
-\lst@mode=\count108
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count109
 \lst@gtempboxa=\box30
 \lst@token=\toks22
-\lst@length=\count109
-\lst@currlwidth=\dimen121
-\lst@column=\count110
-\lst@pos=\count111
-\lst@lostspace=\dimen122
-\lst@width=\dimen123
-\lst@newlines=\count112
-\lst@lineno=\count113
-\c@lstlisting=\count114
-\lst@maxwidth=\dimen124
+\lst@length=\count110
+\lst@currlwidth=\dimen122
+\lst@column=\count111
+\lst@pos=\count112
+\lst@lostspace=\dimen123
+\lst@width=\dimen124
+\lst@newlines=\count113
+\lst@lineno=\count114
+\lst@maxwidth=\dimen125
 
-(/usr/share/texmf/tex/latex/listings/lstpatch.sty
-File: lstpatch.sty 2004/10/17 1.3b (Carsten Heinz)
-)
-(/usr/share/texmf/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2004/09/07 1.3 (Carsten Heinz)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count115
 \lst@skipnumbers=\count116
 \lst@framebox=\box31
 )
-(/usr/share/texmf/tex/latex/listings/listings.cfg
-File: listings.cfg 2004/09/05 1.3 listings configuration
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
-Package: listings 2004/10/17 1.3b (Carsten Heinz)
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(/usr/share/texmf/tex/latex/graphics/color.sty
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
 
-(/usr/share/texmf/tex/latex/config/color.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 130.
+Package color Info: Driver file: pdftex.def on input line 143.
 
-(/usr/share/texmf/tex/latex/graphics/dvipsnam.def
-File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
 ))
-(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(/usr/share/texmf/tex/latex/config/color.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -214,15 +216,16 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(/usr/share/texmf/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2004/09/05 1.3 listings language file
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(/usr/share/texmf/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2004/09/05 1.3 listings language file
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(/usr/share/texmf/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2004/09/07 1.3 (Carsten Heinz)
-) (./advection_diffusion.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+)
+(./advection_diffusion.aux)
 \openout1 = `advection_diffusion.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
@@ -238,129 +241,194 @@ LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 
-(/usr/share/texmf/tex/context/base/supp-pdf.tex
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count117
-\scratchdimen=\dimen125
+\scratchdimen=\dimen126
 \scratchbox=\box32
 \nofMPsegments=\count118
 \nofMParguments=\count119
+\everyMPshowfont=\toks23
 \MPscratchCnt=\count120
-\MPscratchDim=\dimen126
+\MPscratchDim=\dimen127
 \MPnumerator=\count121
-\everyMPtoPDFconversion=\toks23
-) (/usr/share/texmf/tex/latex/ragged2e/ragged2e.sty
-Package: ragged2e 2003/03/25 v2.04 ragged2e Package (MS)
+\makeMPintoPDFobject=\count122
+\everyMPtoPDFconversion=\toks24
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
 
-(/usr/share/texmf/tex/latex/everysel/everysel.sty
-Package: everysel 1999/06/08 v1.03 EverySelectfont Package (MS)
-LaTeX Info: Redefining \selectfont on input line 125.
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
 )
-\CenteringLeftskip=\skip51
-\RaggedLeftLeftskip=\skip52
-\RaggedRightLeftskip=\skip53
-\CenteringRightskip=\skip54
-\RaggedLeftRightskip=\skip55
-\RaggedRightRightskip=\skip56
-\CenteringParfillskip=\skip57
-\RaggedLeftParfillskip=\skip58
-\RaggedRightParfillskip=\skip59
-\JustifyingParfillskip=\skip60
-\CenteringParindent=\skip61
-\RaggedLeftParindent=\skip62
-\RaggedRightParindent=\skip63
-\JustifyingParindent=\skip64
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-Package caption Info: float package v1.3 (or newer) detected on input line 28.
-Package caption Info: listings package v1.2 (or newer) detected on input line 2
-8.
-Package caption Info: subref 1.2 or 1.3 detected on input line 28.
-LaTeX Info: Redefining \subref on input line 28.
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count123
 
 <advec-500.jpg, id=1, 562.1pt x 421.575pt>
 File: advec-500.jpg Graphic file (type jpg)
  <use advec-500.jpg>
+Package pdftex.def Info: advec-500.jpg used on input line 47.
+(pdftex.def)             Requested size: 179.40262pt x 134.55295pt.
+
 <advec0.jpg, id=2, 562.1pt x 421.575pt>
 File: advec0.jpg Graphic file (type jpg)
  <use advec0.jpg>
+Package pdftex.def Info: advec0.jpg used on input line 48.
+(pdftex.def)             Requested size: 179.40262pt x 134.55295pt.
+
 <norm.jpg, id=3, 562.1pt x 421.575pt>
 File: norm.jpg Graphic file (type jpg)
  <use norm.jpg>
+Package pdftex.def Info: norm.jpg used on input line 50.
+(pdftex.def)             Requested size: 179.40262pt x 134.55295pt.
+
 <advec500.jpg, id=4, 562.1pt x 421.575pt>
 File: advec500.jpg Graphic file (type jpg)
- <use advec500.jpg> [1
+ <use advec500.jpg>
+Package pdftex.def Info: advec500.jpg used on input line 51.
+(pdftex.def)             Requested size: 179.40262pt x 134.55295pt.
+ [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./advec-500.jpg> <./ad
-vec0.jpg> <./norm.jpg> <./advec500.jpg>] <diffu-02.jpg, id=16, 562.1pt x 421.57
+vec0.jpg> <./norm.jpg> <./advec500.jpg>] <diffu-02.jpg, id=17, 562.1pt x 421.57
 5pt>
 File: diffu-02.jpg Graphic file (type jpg)
 
-<use diffu-02.jpg> <diffu0.jpg, id=17, 562.1pt x 421.575pt>
+<use diffu-02.jpg>
+Package pdftex.def Info: diffu-02.jpg used on input line 66.
+(pdftex.def)             Requested size: 179.40262pt x 134.55295pt.
+ <diffu0.jpg, id=18, 562.1pt x 421.575pt>
 File: diffu0.jpg Graphic file (type jpg)
  <use diffu0.jpg>
-<diffu10.jpg, id=18, 562.1pt x 421.575pt>
+Package pdftex.def Info: diffu0.jpg used on input line 67.
+(pdftex.def)             Requested size: 179.40262pt x 134.55295pt.
+
+<diffu10.jpg, id=19, 562.1pt x 421.575pt>
 File: diffu10.jpg Graphic file (type jpg)
  <use diffu10.jpg>
-<diffu100.jpg, id=19, 562.1pt x 421.575pt>
+Package pdftex.def Info: diffu10.jpg used on input line 69.
+(pdftex.def)             Requested size: 179.40262pt x 134.55295pt.
+
+<diffu100.jpg, id=20, 562.1pt x 421.575pt>
 File: diffu100.jpg Graphic file (type jpg)
  <use diffu100.jpg>
+Package pdftex.def Info: diffu100.jpg used on input line 70.
+(pdftex.def)             Requested size: 179.40262pt x 134.55295pt.
 File: norm.jpg Graphic file (type jpg)
  <use norm.jpg>
-<t10.jpg, id=20, 562.1pt x 421.575pt>
+Package pdftex.def Info: norm.jpg used on input line 82.
+(pdftex.def)             Requested size: 179.40262pt x 134.55295pt.
+
+<t10.jpg, id=21, 562.1pt x 421.575pt>
 File: t10.jpg Graphic file (type jpg)
- <use t10.jpg> [3 <./diffu-02.jpg> <./diffu0.jpg> <./diffu10.jpg> <./diffu100.j
-pg>]
+ <use t10.jpg>
+Package pdftex.def Info: t10.jpg used on input line 83.
+(pdftex.def)             Requested size: 179.40262pt x 134.55295pt.
+ [3 <./diffu-02.jpg> <./diffu0.jpg> <./diffu10.jpg> <./diffu100.jpg>]
 File: norm.jpg Graphic file (type jpg)
  <use norm.jpg>
-<dt01.jpg, id=24, 562.1pt x 421.575pt>
+Package pdftex.def Info: norm.jpg used on input line 96.
+(pdftex.def)             Requested size: 179.40262pt x 134.55295pt.
+
+<dt01.jpg, id=25, 562.1pt x 421.575pt>
 File: dt01.jpg Graphic file (type jpg)
  <use dt01.jpg>
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 110.
+Package pdftex.def Info: dt01.jpg used on input line 97.
+(pdftex.def)             Requested size: 179.40262pt x 134.55295pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 112.
 
 
-(/usr/share/texmf/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 110.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 112.
  [4 <./t10.jpg> <./dt01.jpg>]
-Overfull \hbox (78.00476pt too wide) in paragraph at lines 114--116
+Overfull \hbox (78.00476pt too wide) in paragraph at lines 116--118
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (90.00488pt too wide) in paragraph at lines 128--129
+Overfull \hbox (90.00488pt too wide) in paragraph at lines 130--131
 [][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (6.00403pt too wide) in paragraph at lines 132--133
+Overfull \hbox (6.00403pt too wide) in paragraph at lines 134--135
 [][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (54.00452pt too wide) in paragraph at lines 144--145
+Overfull \hbox (54.00452pt too wide) in paragraph at lines 146--147
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 [5] [6] (./advection_diffusion.aux) ) 
 Here is how much of TeX's memory you used:
- 4478 strings out of 256214
- 60927 string characters out of 1917001
- 136946 words of memory out of 1500000
- 7705 multiletter control sequences out of 10000+200000
- 16339 words of font info for 57 fonts, out of 1200000 for 2000
- 645 hyphenation exceptions out of 8191
- 43i,6n,58p,683b,1563s stack positions out of 5000i,500n,6000p,200000b,15000s
-</usr/share/texmf/fonts/type1/bluesky/cm/c
-mbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi12.pfb></usr/share/texmf
-/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr1
-2.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr17.pfb></usr/share/texmf/font
-s/type1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb
-></usr/share/texmf/fonts/type1/bluesky/cm/cmti12.pfb>
-Output written on advection_diffusion.pdf (6 pages, 306453 bytes).
+ 5666 strings out of 493029
+ 82355 string characters out of 6136234
+ 193505 words of memory out of 5000000
+ 9115 multiletter control sequences out of 15000+600000
+ 16339 words of font info for 57 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 44i,6n,58p,789b,1563s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on advection_diffusion.pdf (6 pages, 352288 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 131072)
+ 65 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
