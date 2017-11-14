@@ -1,0 +1,84 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{epsfig}
+\usepackage{verbatim}
+%% The amssymb package provides various useful mathematical symbols
+\usepackage{amssymb}
+%% The amsthm package provides extended theorem environments
+%% \usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{float}
+\usepackage{color}
+\usepackage{geometry}
+\geometry{margin=1in}
+\renewcommand{\baselinestretch}{1.5}
+
+\title{Approach to overcome difficulties when solving FPK at the first timestep}
+\author{Fangbo Wang}
+\date{November 2017}
+
+\begin{document}
+\pagenumbering{gobble}
+\maketitle
+
+\section{Existing Problem}
+
+In nonlinear spectral stochastic finite element scheme (SSFEM), a FPK equation, also called advection-diffusion equation, is utilized to compute the probability density function (PDF) of stress. 
+
+The initial condition of the stress should be assumed as a dirac-delta function, or a standard normal function for ease of implementation in following time steps.
+
+However, the advection and diffusion coefficient, denoted as $N_1$ and $N_2$ respectively, can be very large or very small depending on the loading time history, even at the first time step. The problem is that it is hard to solve the FPK with very large $N_1$ or $N_2$ since the initially assigned stress domain is too small. 
+
+It is easy to manage large $N_1$, since the advection distance can be directly calculated as $N_1*dt$. However, it is hard to get a quantitative estimate of the diffusion effect with large $N_2$. Apparently, a large stress domain is required to capture the diffusive effect with a large $N_2$. But, the initial assumed standard Gaussian PDF would look too small and the mesh should be very fine to capture the shape of the PDF.
+
+Traditionally, the author tried to manually change the stress domain size and increase the standard deviation of the initial PDF. The procedure is tedious and can not be generalized to other cases.
+
+\section{Proposed solution}
+Here, the author just find out an approximate and straightforward way to overcome this difficulty. The finding is from Eistein's paper in 1905 on Brownian motion. The paper finds that the standard deviation of the distance from the particle to its original place is :
+\begin{equation}
+    \sqrt{2N_2t}
+    \label{eq01}
+\end{equation}
+
+We can use this finding to approximate a solution of the FPK without solving it. One assumption is that the material is still elastic at the first time step. This is usually the case with nonlinear structural analysis.
+
+If we assume the initial condition is a dirac-delta function, the approximated solution at the first time step is exact. If we assume the initial condition to be a standard normal function, the approximated solution is still acceptable when $N_2>1e5$. The comparison of finite difference solution and Eq. \ref{eq01} approximation.
+
+\begin{table}[]
+\centering
+\caption{Comparison of Finite Difference and Eq. \ref{eq01} Apparoximation}
+\label{my-label}
+\begin{tabular}{|c|c|c|}
+\hline
+Diffusion coeff. & Finite Difference & Eq. (1)  Approximation \\ \hline
+1                & 1.0001            & 0.01                   \\ \hline
+10               & 1.001             & 0.032                  \\ \hline
+1e2              & 1.01              & 0.14                   \\ \hline
+1e3             & 1.095             & 0.4472                 \\ \hline
+1e4              & {\color{blue} 1.73}              & {\color{blue} 1.44}                   \\ \hline
+1e5              & {\color{blue} 4.58}             & {\color{blue} 4.47}                  \\ \hline
+1e6              & 14.17             & 14.14                  \\ \hline
+1e7              & 44.73             & 44.72                  \\ \hline
+\end{tabular}
+\end{table}
+
+From Table \ref{my-label}, it can be observed that the approximation is in good agreement with finite difference solution when $N_2>1e5$. As we said before, we have difficulties with large $N_2$. Now Eq. \ref{eq01} could give us good approximation with large $N_2$. On the other hand, we could solve the FPK equation with small $N_2$ since it's very easy to assign a good stress domain (because the standard deviation of the solution is close to initial assumed PDF).
+
+
+\section{Summary}
+
+An approximation approach is found to overcome the difficulties to solve FPK with very large $N_2$ at the first time step. The approximation approach is exact for dirac-delta initial condition, while it is also good enough for large $N_2$ ($>$1e5) with standard Gaussian initial condition. Note that the assumption is that the material remains elastic after first time step (usually the case).
+
+
+
+
+
+
+
+
+\end{document}
+
